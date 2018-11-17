@@ -1,0 +1,11 @@
+package com.varun.service;
+
+import com.varun.model.Student;
+
+public class StudentService {
+	
+	
+	public void saveStudentService(Student s){
+		
+	}
+}

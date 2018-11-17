@@ -1,0 +1,9 @@
+package com.varun.dao;
+
+import com.varun.model.Student;
+
+public class StudentDao {
+	public void saveStudent(Student s){
+		
+	}
+}

@@ -1,0 +1,12 @@
+package com.varun.service;
+
+import com.varun.dao.EmployeeDAO;
+import com.varun.model.Employee;
+
+public class EmployeeService {
+	EmployeeDAO eDao;
+	public  void saveEmployeeService(Employee emp){
+		
+		eDao.saveEmployee(emp);
+	}
+}

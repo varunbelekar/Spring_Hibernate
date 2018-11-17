@@ -1,0 +1,18 @@
+package com.varun.dao;
+
+import org.springframework.jdbc.core.JdbcTemplate;
+
+import com.varun.model.Employee;
+
+public class EmployeeDAO {
+	JdbcTemplate template;
+	public void saveEmployee(Employee e){
+		String sql="insert into Emp99 values";
+		sql+="('"+e.getName()+"'";
+		sql+=","+e.getAge();
+		sql+=",'"+e.getDesignation()+"')";
+		System.out.println(sql);
+		
+		 template.update(sql);
+	}
+}

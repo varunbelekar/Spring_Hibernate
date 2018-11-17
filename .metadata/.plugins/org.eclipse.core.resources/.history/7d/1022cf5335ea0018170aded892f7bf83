@@ -1,0 +1,13 @@
+package com.varun.dao;
+
+import org.springframework.orm.hibernate3.HibernateTemplate;
+
+import com.varun.model.Student;
+
+public class StudentDao {
+	
+	HibernateTemplate template;
+	public void saveStudent(Student s){
+		template.save(s);
+	}
+}

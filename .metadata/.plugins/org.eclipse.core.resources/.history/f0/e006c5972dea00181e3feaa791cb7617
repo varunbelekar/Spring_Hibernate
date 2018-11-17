@@ -1,0 +1,26 @@
+package com.varun.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.ModelAndView;
+
+import com.varun.model.Student;
+import com.varun.service.StudentService;
+
+@Controller
+public class StudentController {
+	@Autowired
+	StudentService s;
+	
+	@RequestMapping("/add")
+	public ModelAndView addStudent(){
+		return new ModelAndView("addStudentForm","command",new Student());
+	}
+	
+	@RequestMapping("/processForm")
+	public ModelAndView saveStudent(@ModelAttribute("student")Student s){
+		
+	}
+}

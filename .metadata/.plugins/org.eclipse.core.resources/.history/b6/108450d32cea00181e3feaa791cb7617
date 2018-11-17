@@ -1,0 +1,16 @@
+package com.varun.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.ModelAndView;
+
+import com.varun.model.Student;
+
+@Controller
+public class StudentController {
+
+	@RequestMapping("/add")
+	public ModelAndView addStudent(){
+		return new ModelAndView("addStudentForm","command",new Student());
+	}
+}

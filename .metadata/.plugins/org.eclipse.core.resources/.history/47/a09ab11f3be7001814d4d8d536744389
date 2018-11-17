@@ -1,0 +1,16 @@
+package com.varun.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.ModelAndView;
+
+import com.varun.model.Employee;
+
+@Controller
+public class EmployeeController {
+
+	@RequestMapping("/add")
+	public ModelAndView showForm(){
+		return new ModelAndView("employeeForm","command",new Employee());
+	}
+}

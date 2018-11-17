@@ -1,0 +1,20 @@
+package com.varun.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.varun.dao.StudentDao;
+import com.varun.model.Student;
+
+public class StudentService {
+	
+	@Autowired
+	StudentDao dao;
+	
+	public void setDao(StudentDao dao) {
+		this.dao = dao;
+	}
+
+	public void saveStudentService(Student s){
+		dao.saveStudent(s);
+	}
+}

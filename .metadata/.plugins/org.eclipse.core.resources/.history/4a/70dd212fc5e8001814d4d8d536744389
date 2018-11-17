@@ -1,0 +1,30 @@
+package com.varun.controller;
+
+
+
+
+public class EmployeeController {
+	@Autowired
+	EmployeeDAO eDao;
+	
+	@RequestMapping("/add")
+	public ModelAndView showForm(){
+		return new ModelAndView("employeeForm","command",new Employee());
+	}
+	
+	
+	@RequestMapping(value="/processForm")
+	public ModelAndView processForm(@ModelAttribute("employee") Employee e){
+		System.out.println(e.getName());
+		//EmployeeService obj=new EmployeeService();
+		//obj.saveEmployeeService(e);
+		eDao.saveEmployee(e);
+		
+		return new ModelAndView("viewEmployee","employee",e);
+	}
+	
+	/*@RequestMapping("/view")
+	public ModelAndView showEmployee(){
+		
+	}*/
+}
