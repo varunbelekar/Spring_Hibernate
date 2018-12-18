@@ -1,9 +1,0 @@
-package com.varun.dao;
-
-import com.varun.model.Employee;
-
-public class EmployeeDAO {
-	public void saveEmployee(Employee e){
-		
-	}
-}

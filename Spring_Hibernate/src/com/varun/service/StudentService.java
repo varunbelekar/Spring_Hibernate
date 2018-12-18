@@ -33,4 +33,8 @@ public class StudentService {
 	public void updateStudentService(Student s){
 		dao.updateStudent(s);
 	}
+	
+	public List<Student> checkLoginService(String username,String password){
+		return dao.checkLogin(username,password);
+	}
 }

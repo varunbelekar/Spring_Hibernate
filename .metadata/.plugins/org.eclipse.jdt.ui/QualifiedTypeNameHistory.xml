@@ -17,4 +17,9 @@
 <fullyQualifiedTypeName name="com.varun.service.StudentService"/>
 <fullyQualifiedTypeName name="com.varun.dao.StudentDao"/>
 <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="oracle.net.aso.e"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ModelAttribute"/>
+<fullyQualifiedTypeName name="com.varun.model.Student"/>
+<fullyQualifiedTypeName name="org.hibernate.validator.constraints.NotEmpty"/>
 </qualifiedTypeNameHistroy>

@@ -1,7 +1,0 @@
-package com.varun.service;
-
-public class StudentService {
-	public void saveStudentService(){
-		
-	}
-}

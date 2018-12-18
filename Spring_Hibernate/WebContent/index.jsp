@@ -7,7 +7,9 @@
 <title>Insert title here</title>
 </head>
 <body>
-<a href="add">Add Student</a>
-<a href="view">View Student</a>
+<a href="add">Register</a>
+<a href="view">View</a>
+<a href="login">Login</a>
+<!-- <a href="view">View Student</a> -->
 </body>
 </html>

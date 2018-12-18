@@ -17,6 +17,10 @@
 	<form:input path="name"/><br>
 	Enter age:<br>
 	<form:input path="age"/><br>
+	Enter username:<br>
+	<form:input path="username"/><br>
+	Enter password:<br>
+	<form:password path="password"/><br>
 	
 	<input type="submit" value="save">
 </form:form>

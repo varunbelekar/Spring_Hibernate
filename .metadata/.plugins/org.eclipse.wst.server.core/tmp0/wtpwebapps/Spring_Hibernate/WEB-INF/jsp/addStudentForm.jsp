@@ -13,10 +13,19 @@
 <form:form action="processForm">
 	Enter id:<br>
 	<form:input path="id"/><br>
+	<form:errors path="id"></form:errors>
 	Enter name:<br>
 	<form:input path="name"/><br>
+	<form:errors path="name"></form:errors>
 	Enter age:<br>
 	<form:input path="age"/><br>
+	<form:errors path="age"></form:errors>
+	Enter username:<br>
+	<form:input path="username"/><br>
+	<form:errors path="username"></form:errors>
+	Enter password:<br>
+	<form:password path="password"/>
+	<form:errors path="password"></form:errors>
 	
 	<input type="submit" value="save">
 </form:form>

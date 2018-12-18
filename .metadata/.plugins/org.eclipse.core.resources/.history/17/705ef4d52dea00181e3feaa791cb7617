@@ -1,7 +1,0 @@
-package com.varun.dao;
-
-public class StudentDao {
-	public void saveStudent(Student s){
-		
-	}
-}

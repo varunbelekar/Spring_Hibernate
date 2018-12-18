@@ -54,4 +54,23 @@ public class StudentController {
 		student.updateStudentService(s);
 		return new ModelAndView("redirect:/view");
 	}
+	
+	@RequestMapping("/home")
+	public ModelAndView home(){
+		return new ModelAndView("home");
+	}
+	
+	@RequestMapping("/login")
+	public ModelAndView showLoginPage(){
+		return new ModelAndView("loginPage","command",new Student());
+	}
+	
+	@RequestMapping("/loginAttempt")
+	public ModelAndView checkLogin(@ModelAttribute("student")Student s){
+		List<Student> st=student.checkLoginService(s.getUsername(),s.getPassword());
+		if(st.size()==0){
+			return new ModelAndView("failLogin");
+		}
+		return new ModelAndView("loginsuccess","student",s);
+	}
 }

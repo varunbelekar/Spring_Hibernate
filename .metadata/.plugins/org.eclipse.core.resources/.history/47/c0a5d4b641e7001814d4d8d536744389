@@ -1,9 +1,0 @@
-package com.varun.service;
-
-import com.varun.model.Employee;
-
-public class EmployeeService {
-	public static  void saveEmployeeService(Employee emp){
-		
-	}
-}

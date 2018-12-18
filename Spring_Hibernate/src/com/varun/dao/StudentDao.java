@@ -32,4 +32,11 @@ public class StudentDao {
 		template.saveOrUpdate(s);
 		
 	}
+	public List<Student> checkLogin(String username,String password){
+		String query="from Student where username='"+username+"'";
+		query+=" and password='"+password+"'";
+		System.out.println(query);
+		List<Student> st=template.find(query);
+		return st;
+	}
 }

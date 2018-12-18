@@ -14,6 +14,7 @@
 		<td>ID</td>
 		<td>NAME</td>
 		<td>AGE</td>
+		<td>USERNAME</td>
 		<td>UPDATE</td>
 		<td>DELETE</td>
 	</tr>
@@ -22,10 +23,12 @@
 			<td>${i.id}</td>
 			<td>${i.name}</td>
 			<td>${i.age}</td>
+			<td>${i.username}</td>
 			<td><a href="update">Update</a></td>
 			<td><a href="delete/${i.id}">Delete</a></td>
 		</tr>
 	</c:forEach>
 </table>
+<a href="home">Home</a>
 </body>
 </html>
