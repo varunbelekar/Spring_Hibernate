@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;message_en.properties&apos; to &apos;WEB-INF&apos;&#x0D;&#x0A;- Original project: &apos;Spring_Internationalization&apos;&#x0D;&#x0A;- Destination element: &apos;WEB-INF&apos;&#x0D;&#x0A;- Original element: &apos;message_en.properties&apos;" description="Copy file" element1="WebContent/WEB-INF/message_en.properties" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1545142090955" target="/Spring_Internationalization/WebContent/WEB-INF" units="0" version="1.0"/>
+</session>

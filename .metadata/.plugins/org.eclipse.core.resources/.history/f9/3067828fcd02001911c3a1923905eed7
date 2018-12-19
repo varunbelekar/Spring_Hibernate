@@ -1,0 +1,6 @@
+package com.varun.controller;
+
+@Controller
+public class WelcomeController {
+
+}

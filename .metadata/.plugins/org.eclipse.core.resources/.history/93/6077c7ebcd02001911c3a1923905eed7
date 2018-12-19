@@ -1,0 +1,14 @@
+package com.varun.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.servlet.ModelAndView;
+
+@Controller
+public class WelcomeController {
+	
+	@RequestMapping("/init")
+	public ModelAndView getWelcomePage(){
+		System.out.println("welcome");
+		return new ModelAndView("welcomePage");
+	}
+}

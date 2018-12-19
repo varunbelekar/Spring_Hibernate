@@ -1,0 +1,16 @@
+127.0.0.1 - - [18/Dec/2018:19:44:17 +0530] "GET / HTTP/1.1" 404 1036
+0:0:0:0:0:0:0:1 - - [18/Dec/2018:19:44:18 +0530] "GET /Spring_Internationalization/ HTTP/1.1" 200 270
+0:0:0:0:0:0:0:1 - - [18/Dec/2018:19:44:24 +0530] "GET /Spring_Internationalization/init HTTP/1.1" 500 6522
+127.0.0.1 - - [18/Dec/2018:19:46:44 +0530] "GET / HTTP/1.1" 404 1036
+0:0:0:0:0:0:0:1 - - [18/Dec/2018:19:46:45 +0530] "GET /Spring_Internationalization/ HTTP/1.1" 200 270
+0:0:0:0:0:0:0:1 - - [18/Dec/2018:19:46:55 +0530] "GET /Spring_Internationalization/init HTTP/1.1" 500 6578
+127.0.0.1 - - [18/Dec/2018:19:50:03 +0530] "GET / HTTP/1.1" 404 1036
+0:0:0:0:0:0:0:1 - - [18/Dec/2018:19:50:03 +0530] "GET /Spring_Internationalization/ HTTP/1.1" 200 270
+0:0:0:0:0:0:0:1 - - [18/Dec/2018:19:50:12 +0530] "GET /Spring_Internationalization/init HTTP/1.1" 200 428
+0:0:0:0:0:0:0:1 - - [18/Dec/2018:19:50:32 +0530] "GET /Spring_Internationalization/init HTTP/1.1" 200 428
+0:0:0:0:0:0:0:1 - - [18/Dec/2018:19:51:13 +0530] "GET /Spring_Internationalization/init HTTP/1.1" 500 3844
+127.0.0.1 - - [18/Dec/2018:19:52:27 +0530] "GET / HTTP/1.1" 404 1036
+0:0:0:0:0:0:0:1 - - [18/Dec/2018:19:52:28 +0530] "GET /Spring_Internationalization/ HTTP/1.1" 200 270
+0:0:0:0:0:0:0:1 - - [18/Dec/2018:19:52:33 +0530] "GET /Spring_Internationalization/init HTTP/1.1" 200 425
+0:0:0:0:0:0:0:1 - - [18/Dec/2018:19:52:36 +0530] "GET /Spring_Internationalization/init?lang=en HTTP/1.1" 200 425
+0:0:0:0:0:0:0:1 - - [18/Dec/2018:19:52:42 +0530] "GET /Spring_Internationalization/init?lang=fr HTTP/1.1" 200 425
